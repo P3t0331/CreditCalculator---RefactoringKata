@@ -1,6 +1,6 @@
 ﻿namespace CreditCalculator.After;
 
-public class CompanyRepository
+public class CompanyRepository : ICompanyRepository
 {
     private readonly List<Company> _companies = new()
     {

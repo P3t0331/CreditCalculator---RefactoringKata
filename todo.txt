@@ -1,0 +1,7 @@
+Put services/repositories/... used at the top, possibly use ServiceCollection
+
+Break down AddCustomer into smaller methods to make it more readable and manageable.
+
+Using early returns for validation to keep the code less nested and more readable.
+
+Use a strategy pattern or a simple method to handle different behaviors based on company type
